@@ -1,0 +1,38 @@
+* {
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #fff;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: row;
+  margin-left: 100px;
+  gap: 100px;
+}
+
+.result {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.title-section {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+
+.scores {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  border: 1px solid #000;
+  gap: 10px;
+}
+
+.scores:nth-child(odd) {
+  background-color: rgb(246
