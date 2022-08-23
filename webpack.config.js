@@ -13,7 +13,6 @@ module.exports = {
       template: './src/index.html',
       title: 'Development',
     }),
-    new ESLintPlugin(options),
   ],
   output: {
     filename: '[name].[hash:8].js',

@@ -1,6 +1,5 @@
 export default function display() {
   const result = document.querySelector('.result');
-  const inputContainer = document.querySelector('.input-form');
 
   const titleSection = document.createElement('div');
   titleSection.classList.add('title-section');
