@@ -5,19 +5,32 @@
 
 body {
   background: #fff;
+  width: 100%;
+  margin: 5px auto 0 auto;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 1.75rem;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+
+h1 {
+  font-size: 48px;
+  font-weight: 700;
+  margin-left: 150px;
 }
 
 .main-container {
   display: flex;
   flex-direction: row;
-  margin-left: 100px;
+  align-items: center;
+  justify-content: center;
   gap: 100px;
 }
 
 .result {
   display: flex;
   flex-direction: column;
-  gap: 20px;
 }
 
 .title-section {
@@ -26,13 +39,64 @@ body {
   gap: 30px;
 }
 
+h2 {
+  justify-content: center;
+}
+
+.refresh-btn {
+  width: 100px;
+  height: 30px;
+  margin-left: auto;
+  align-items: center;
+  margin-top: 20px;
+  border: 1px solid;
+  box-shadow: 3px 3px;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+
 .scores {
   display: flex;
   flex-direction: column;
   width: 400px;
   border: 1px solid #000;
-  gap: 10px;
 }
 
-.scores:nth-child(odd) {
-  background-color: rgb(246
+h3:nth-child(odd) {
+  background-color: white;
+}
+
+h3:nth-child(even) {
+  background-color: rgb(214, 208, 208);
+}
+
+h3 {
+  font-size: 14px;
+  font-weight: normal;
+  margin-top: 0;
+}
+
+.input-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.score-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+input {
+  width: 250px;
+  height: 30px;
+  border: 3px solid #000;
+}
+
+.score-btn {
+  width: 100px;
+  height: 30px;
+  margin-left: auto;
+  border: 1px solid;
+  box-shadow: 3px 3px;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
