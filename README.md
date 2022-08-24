@@ -1,17 +1,5 @@
 <h1 align="center">Welcome to leaderboard 👋</h1>
-## Built With
 
-- HTML
-- CSS and
-- JavaScript
-
-### Prerequisites
-
-- Have a good knowledge on how to parse UI designs
-- Have VSCode or other text editor installed. Link to download VSCode
-- Install node package. Link to download node
-- Have git installed.Link to download git
-- Create a github repository.
 <p>
   <a href="https://www.npmjs.com/package/leaderboard" target="_blank">
     <img alt="Version" src="https://img.shields.io/npm/v/leaderboard.svg">
@@ -28,6 +16,20 @@
 </p>
 
 ### 🏠 [Homepage](https://github.com/Aseadd/Leaderboard#readme)
+
+## Built With
+
+- HTML
+- CSS and
+- JavaScript
+
+### Prerequisites
+
+- Have a good knowledge on how to parse UI designs
+- Have VSCode or other text editor installed. Link to download VSCode
+- Install node package. Link to download node
+- Have git installed.Link to download git
+- Create a github repository.
 
 ## Install
 
