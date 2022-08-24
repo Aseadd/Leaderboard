@@ -31,6 +31,20 @@
 - Have git installed.Link to download git
 - Create a github repository.
 
+## Usage
+
+Clone the repository with
+
+```sh
+git clone git@github.com:Aseadd/Leaderboard.git
+```
+
+Change the directory
+
+```sh
+cd Leaderboard
+```
+
 ## Install
 
 ```sh
