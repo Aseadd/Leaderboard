@@ -1,4 +1,17 @@
 <h1 align="center">Welcome to leaderboard 👋</h1>
+## Built With
+
+- HTML
+- CSS and
+- JavaScript
+
+### Prerequisites
+
+- Have a good knowledge on how to parse UI designs
+- Have VSCode or other text editor installed. Link to download VSCode
+- Install node package. Link to download node
+- Have git installed.Link to download git
+- Create a github repository.
 <p>
   <a href="https://www.npmjs.com/package/leaderboard" target="_blank">
     <img alt="Version" src="https://img.shields.io/npm/v/leaderboard.svg">
@@ -36,8 +49,8 @@ npm run test
 
 ## Author
 
-* Website: https://aseadd.github.io/
-* Github: [@Aseadd](https://github.com/Aseadd)
+- Website: https://aseadd.github.io/
+- Github: [@Aseadd](https://github.com/Aseadd)
 
 ## 🤝 Contributing
 
@@ -49,7 +62,8 @@ Give a ⭐️ if this project helped you!
 
 ## 📝 License
 
-This project is [ISC](https://github.com/Aseadd/Leaderboard/blob/master/LICENSE) licensed.
+This project is [MIT](/MIT.md) licensed.
 
-***
+---
+
 _This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
