@@ -11,12 +11,14 @@ export default function scoreInputFunc() {
   nameInput.setAttribute('type', 'text');
   nameInput.setAttribute('name', 'name');
   nameInput.setAttribute('placeholder', 'Name');
+  nameInput.setAttribute('id', 'name');
   scoreForm.appendChild(nameInput);
 
   const scoreInput = document.createElement('input');
   scoreInput.setAttribute('type', 'text');
   scoreInput.setAttribute('name', 'point');
   scoreInput.setAttribute('placeholder', 'Score');
+  scoreInput.setAttribute('id', 'score');
   scoreForm.appendChild(scoreInput);
 
   const btn = document.createElement('button');
@@ -25,5 +27,5 @@ export default function scoreInputFunc() {
   btn.innerHTML = 'Submit';
   scoreForm.appendChild(btn);
   inputContainer.appendChild(scoreForm);
-  return inputContainer;
+  //return inputContainer;
 }
