@@ -1,8 +1,9 @@
 import './styles.css';
 import display from './module/display';
+
 const game = require('./module/game.js');
 const scoreResult = require('./module/scoreResult.js');
-
+// eslint-disable-next-line
 const url =
   'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/xXcSDd9DQXixIyWfrbiy/scores';
 display();
