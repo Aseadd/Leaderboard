@@ -1,7 +1,5 @@
 import './styles.css';
-import scoreInputFunc from './module/scoreInput';
 import display from './module/display';
-import Score from './module/score.js';
 const game = require('./module/game.js');
 const scoreResult = require('./module/scoreResult.js');
 
@@ -23,6 +21,5 @@ submit.addEventListener('click', async () => {
 });
 
 refresh.addEventListener('click', async () => {
-  debugger;
   await scoreResult(url);
 });

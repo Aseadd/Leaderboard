@@ -1,6 +1,3 @@
-const game = require('./game.js');
-const displayScore = require('./scoreResult.js');
-
 export default function display() {
   const result = document.querySelector('.result');
 
