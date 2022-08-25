@@ -11,7 +11,7 @@ export default function display() {
   outputTitle.innerHTML = 'Recent Scores';
   titleSection.appendChild(outputTitle);
 
-  const refresh = document.createElement('input');
+  const refresh = document.createElement('button');
   refresh.classList.add('refresh-btn');
   refresh.innerHTML = 'Refresh';
   titleSection.appendChild(refresh);

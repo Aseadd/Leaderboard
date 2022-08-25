@@ -6,9 +6,7 @@ const game = require('./module/game.js');
 const scoreResult = require('./module/scoreResult.js');
 
 const url =
- // 'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/I29zP7wzCCRzPd6OVPpA/scores';
   'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/xXcSDd9DQXixIyWfrbiy/scores';
-// scoreInputFunc();
 display();
 scoreResult(url);
 
@@ -24,7 +22,7 @@ submit.addEventListener('click', async () => {
   await scoreResult(url);
 });
 
-refresh.addEventListener('click', async ()=>{
+refresh.addEventListener('click', async () => {
   debugger;
   await scoreResult(url);
 });

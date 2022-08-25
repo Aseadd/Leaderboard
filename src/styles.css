@@ -71,11 +71,17 @@ h3 {
   margin-top: 0;
 }
 
-h3:nth-child(odd) {
+li {
+  padding-left: 5px;
+  text-decoration: none;
+  list-style: none;
+}
+
+li:nth-child(odd) {
   background-color: white;
 }
 
-h3:nth-child(even) {
+li:nth-child(even) {
   background-color: rgb(214, 208, 208);
 }
 

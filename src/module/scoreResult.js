@@ -8,15 +8,11 @@ const displayScore = async (url) => {
 
   let scoreHtml = '';
   scores.forEach((element) => {
-    scoreHtml += `<h3>
+    scoreHtml += `<li>
         ${element.user} : ${element.score}
-    </h3>`;
+    </li>`;
   });
   result.innerHTML = scoreHtml;
-
-  let trialText = 'This is trial';
-  trial.innerHTML = trialText;
-  return result;
 };
 
 module.exports = displayScore;
