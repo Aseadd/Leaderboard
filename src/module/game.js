@@ -3,10 +3,13 @@ const getScores = async (url) => {
   return response.result;
 };
 
-const setScores = async (url, data) => {
+const setScores = async (url, user, score) => {
   const response = await fetch(`${url}`, {
     method: 'POST',
-    body: data,
+    body: JSON.stringify({
+      user: `${user}`,
+      score: `${score}`,
+    }),
     headers: {
       'Content-type': 'application/json; charset=UTF-8',
     },

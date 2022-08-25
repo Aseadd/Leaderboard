@@ -18,9 +18,6 @@ export default function display() {
   result.appendChild(titleSection);
   const score = document.createElement('div');
   score.classList.add('scores');
-  const scoreList = document.createElement('h3');
-  scoreList.innerHTML = 'Name 70';
-  score.appendChild(scoreList);
   result.appendChild(score);
   return result;
 }
