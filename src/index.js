@@ -1,10 +1,26 @@
 import './styles.css';
-import scoreInputFunc from './module/score-input';
 import display from './module/display';
 
-function component() {
-  display();
-  scoreInputFunc();
-}
+const game = require('./module/game.js');
+const scoreResult = require('./module/scoreResult.js');
+// eslint-disable-next-line
+const url =
+  'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/xXcSDd9DQXixIyWfrbiy/scores';
+display();
+scoreResult(url);
 
-document.body.appendChild(component());
+const refresh = document.querySelector('.refresh-btn');
+const submit = document.querySelector('.score-btn');
+const inputName = document.getElementById('name');
+const inputScore = document.getElementById('score');
+
+submit.addEventListener('click', async () => {
+  const user = inputName.value;
+  const score = inputScore.value;
+  await game.setScores(url, user, score);
+  await scoreResult(url);
+});
+
+refresh.addEventListener('click', async () => {
+  await scoreResult(url);
+});
