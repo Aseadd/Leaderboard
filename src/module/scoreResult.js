@@ -6,9 +6,11 @@ const displayScore = async (url) => {
 
   let scoreHtml = '';
   scores.forEach((element) => {
-    scoreHtml += `<li>
-        ${element.user} : ${element.score}
-    </li>`;
+    scoreHtml += ` <tr>
+       <td>
+        ${element.user} </td>
+      <td>   ${element.score}
+    </td></tr>`;
   });
   result.innerHTML = scoreHtml;
 };

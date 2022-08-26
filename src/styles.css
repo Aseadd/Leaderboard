@@ -1,114 +1,46 @@
-* {
-  padding: 0;
-  box-sizing: border-box;
+:root {
+  --main-bg-color: #eadeda;
+  --main-table-color: #fff;
+  --main-nav-bg-color: #0dab76;
+  --nav-text-color: #fffffc;
+  --h2-text-color: #fff;
 }
 
 body {
-  background: #fff;
-  width: 100%;
-  margin: 40px auto 0 auto;
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  gap: 1.75rem;
-  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  background: url(./images/default.jpg);
+}
+
+a {
+  font-size: 48px;
+  font-weight: 800;
 }
 
 h1 {
-  font-size: 48px;
-  font-weight: 700;
-  margin-left: 150px;
-}
-
-.main-container {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  gap: 100px;
-}
-
-.result {
-  display: flex;
-  flex-direction: column;
-}
-
-.title-section {
-  display: flex;
-  flex-direction: row;
-  gap: 30px;
+  color: var(--main-bg-color);
 }
 
 h2 {
-  justify-content: center;
-  font-size: 28px;
-  font-weight: bold;
+  color: var(--h2-text-color);
 }
 
-.refresh-btn {
-  width: 100px;
-  height: 30px;
-  font-weight: bold;
-  margin-left: auto;
-  margin-right: 5px;
-  align-items: center;
-  margin-top: 30px;
-  border: 1px solid;
-  box-shadow: 3px 3px;
-  font-family: "Comic Sans MS", "Comic Sans", cursive;
+p {
+  text-align: center;
 }
 
-.scores {
-  display: flex;
-  flex-direction: column;
-  width: 350px;
-  border: 1px solid #000;
+.navbar {
+  background: var(--main-nav-bg-color);
+  color: var(--nav-text-color);
 }
 
-h3 {
-  font-size: 14px;
-  font-weight: bold;
-  margin-top: 0;
+.container {
+  border-radius: 10px;
+  width: 100%;
 }
 
-li {
-  padding-left: 5px;
-  text-decoration: none;
-  list-style: none;
+.col {
+  margin-top: 20px;
 }
 
-li:nth-child(odd) {
-  background-color: white;
-}
-
-li:nth-child(even) {
-  background-color: rgb(214, 208, 208);
-}
-
-.input-form {
-  display: flex;
-  flex-direction: column;
-}
-
-.score-form {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-}
-
-input {
-  width: 250px;
-  height: 30px;
-  border: 3px solid #000;
-  font-weight: bold;
-}
-
-.score-btn {
-  width: 100px;
-  height: 30px;
-  font-weight: bold;
-  margin-left: auto;
-  border: 1px solid;
-  box-shadow: 3px 3px;
-  font-family: "Comic Sans MS", "Comic Sans", cursive;
+.table {
+  background: var(--main-table-color);
 }
