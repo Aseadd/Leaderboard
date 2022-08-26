@@ -1,6 +1,8 @@
 import './styles.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import sound from './audio/music.wav';
 
+const song = new Audio(sound);
 const game = require('./module/game.js');
 const scoreResult = require('./module/scoreResult.js');
 // eslint-disable-next-line
@@ -24,4 +26,8 @@ submit.addEventListener('click', async () => {
 
 refresh.addEventListener('click', async () => {
   await scoreResult(url);
+});
+
+document.addEventListener('mousemove', () => {
+  song.play();
 });
