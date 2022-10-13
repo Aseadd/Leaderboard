@@ -1,19 +1,7 @@
+![Microverse](https://img.shields.io/badge/Microverse-blueviolet) ![HTML](https://img.shields.io/badge/-HTML-orange) ![CSS](https://img.shields.io/badge/-CSS-blue) ![JavaScript](https://img.shields.io/badge/-JavaScript-yellow) 
+
 <h1 align="center">Welcome to leaderboard 👋</h1>
 
-<p>
-  <a href="https://www.npmjs.com/package/leaderboard" target="_blank">
-    <img alt="Version" src="https://img.shields.io/npm/v/leaderboard.svg">
-  </a>
-  <a href="https://github.com/Aseadd/Leaderboard#readme" target="_blank">
-    <img alt="Documentation" src="https://img.shields.io/badge/documentation-yes-brightgreen.svg" />
-  </a>
-  <a href="https://github.com/Aseadd/Leaderboard/graphs/commit-activity" target="_blank">
-    <img alt="Maintenance" src="https://img.shields.io/badge/Maintained%3F-yes-green.svg" />
-  </a>
-  <a href="https://github.com/Aseadd/Leaderboard/blob/master/LICENSE" target="_blank">
-    <img alt="License: ISC" src="https://img.shields.io/github/license/Aseadd/leaderboard" />
-  </a>
-</p>
 
 ### 🏠 [Homepage](https://github.com/Aseadd/Leaderboard#readme)
 
