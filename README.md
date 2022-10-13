@@ -22,7 +22,8 @@
 - HTML
 - CSS and
 - JavaScript
-### Prerequisites
+### Live Demo
+
 [Demo](https://zingy-profiterole-22e9bc.netlify.app/)
 
 ### Prerequisites
