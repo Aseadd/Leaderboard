@@ -1,0 +1,46 @@
+:root {
+  --main-bg-color: #eadeda;
+  --main-table-color: #fff;
+  --main-nav-bg-color: #0dab76;
+  --nav-text-color: #fffffc;
+  --h2-text-color: #fff;
+}
+
+body {
+  background: url(./images/default.jpg);
+}
+
+a {
+  font-size: 48px;
+  font-weight: 800;
+}
+
+h1 {
+  color: var(--main-bg-color);
+}
+
+h2 {
+  color: var(--h2-text-color);
+}
+
+p {
+  text-align: center;
+}
+
+.navbar {
+  background: var(--main-nav-bg-color);
+  color: var(--nav-text-color);
+}
+
+.container {
+  border-radius: 10px;
+  width: 100%;
+}
+
+.col {
+  margin-top: 20px;
+}
+
+.table {
+  background: var(--main-table-color);
+}
